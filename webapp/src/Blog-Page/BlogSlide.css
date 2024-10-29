@@ -58,7 +58,7 @@
   background-color: #ffffff;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(131, 64, 64, 0.1);
   align-items: center;
 }
 
@@ -145,12 +145,6 @@
   }
 }
 
-
-
-
-
-
-
 .card {
   border: none; /* Remove the default card border */
   border-radius: 0.5rem; /* Rounded corners */
@@ -160,8 +154,6 @@
 .card-img-top {
   object-fit: cover; /* Ensure images cover the area */
 }
-
-
 
 .overlay {
   position: absolute;
@@ -180,7 +172,6 @@
   position: relative;
 }
 
-
-#menu{
-top: 50px;
+#menu {
+  top: 50px;
 }

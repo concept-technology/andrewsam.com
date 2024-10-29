@@ -13,6 +13,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import img from "../assets/blog/img/news-700x435-4.jpg";
 
 const FeaturedNews = () => {
   const cardBg = useColorModeValue("white", "gray.800");
@@ -121,7 +122,7 @@ const FeaturedNews = () => {
               overflow="hidden"
             >
               <Image
-                src="./src/assets/blog/img/news-700x435-4.jpg"
+                src={img}
                 alt="News 2"
                 objectFit="cover"
                 height="250px"
